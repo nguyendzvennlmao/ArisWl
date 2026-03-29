@@ -3,6 +3,17 @@ version: 1.0
 main: male.aris.ariswl.ArisWL
 api-version: 1.20
 folia-supported: true
+author: VennLMAO
+description: Plugin chan lenh va bao mat cho Aris Network.
 commands:
   ariswl:
+    description: Lenh quan tri ArisWL
     permission: ariswl.admin
+    usage: /ariswl
+permissions:
+  ariswl.admin:
+    description: Quyen reload config plugin
+    default: op
+  ariswl.bypass:
+    description: Quyen dung tat ca cac lenh khong bi chan
+    default: op
