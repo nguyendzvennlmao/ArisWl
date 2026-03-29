@@ -1,0 +1,18 @@
+messages:
+  unknown_command: 'Unknown command. Type "/help" for help.'
+  reload: '&#facc15[Aʀɪs] &#ff0812Cᴏɴғɪɢ ʀᴇʟᴏᴀᴅᴇᴅ!'
+
+groups:
+  default:
+    lp_group: "none"
+    commands:
+      - "help"
+      - "spawn"
+      - "login"
+      - "register"
+  aris:
+    lp_group: "aris"
+    commands:
+      - "fly"
+      - "test"
+      - "gm"
