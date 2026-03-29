@@ -1,0 +1,8 @@
+name: ArisCommandWhitelist
+version: 1.0
+main: male.aris.ariswl.ArisWL
+api-version: 1.20
+folia-supported: true
+commands:
+  ariswl:
+    permission: ariswl.admin
